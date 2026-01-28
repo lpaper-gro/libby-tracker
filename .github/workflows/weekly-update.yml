@@ -47,7 +47,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git pull --rebase
           git add src/data/appearances.json
           git commit -m "Auto-update: New media appearances found"
+          git pull --rebase --autostash
           git push
