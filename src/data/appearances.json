@@ -122,6 +122,28 @@
       "quote": "Students often prepare for emergencies in classrooms but not in worship areas — that's a unique consideration for faith-based schools.",
       "icon": "🌐",
       "url": ""
+    },
+    {
+      "id": 13,
+      "date": "8 hours ago",
+      "outlet": "Jamestown Sun",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.jamestownsun.com/news/local/state-superintendent-visits-jamestown-pingree-buchanan-school-districts",
+      "needsReview": true
+    },
+    {
+      "id": 14,
+      "date": "6 days ago",
+      "outlet": "InForum",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.inforum.com/news/north-dakota/fargo-businesswoman-former-state-commerce-head-appointed-to-north-dakota-higher-ed-board",
+      "needsReview": true
     }
   ]
 }
