@@ -1,6 +1,7 @@
 /**
  * Weekly Update Script
  * Searches for new Levi Bachmeier media appearances and sends email summary.
+ * Also sends weekly digest to all PL members from Notion CRM.
  */
 
 import fs from 'fs';
@@ -12,6 +13,44 @@ const dataPath = path.join(__dirname, '../src/data/appearances.json');
 
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf8'));
 const existingUrls = new Set(data.appearances.map(a => a.url).filter(Boolean));
+
+async function getPLMemberEmails() {
+  const NOTION_API_KEY = process.env.NOTION_API_KEY;
+  const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID;
+
+  if (!NOTION_API_KEY || !NOTION_DATABASE_ID) {
+    console.log('Notion credentials not configured. Skipping PL member emails.');
+    return [];
+  }
+
+  try {
+    const { Client } = await import('@notionhq/client');
+    const notion = new Client({ auth: NOTION_API_KEY });
+
+    const response = await notion.databases.query({
+      database_id: NOTION_DATABASE_ID,
+      filter: {
+        property: 'Tags',
+        multi_select: {
+          contains: 'PL members'
+        }
+      }
+    });
+
+    const emails = response.results
+      .map(page => {
+        const emailProp = page.properties.Email;
+        return emailProp?.email || null;
+      })
+      .filter(email => email !== null);
+
+    console.log(\`Found \${emails.length} PL member emails from Notion\`);
+    return emails;
+  } catch (error) {
+    console.error('Error fetching PL members from Notion:', error.message);
+    return [];
+  }
+}
 
 async function searchForNewAppearances() {
   const SERPER_API_KEY = process.env.SERPER_API_KEY;
@@ -60,14 +99,14 @@ async function searchForNewAppearances() {
         }
       }
     } catch (error) {
-      console.error(`Search error for "${query}":`, error.message);
+      console.error(\`Search error for "\${query}":\`, error.message);
     }
   }
 
   return newAppearances;
 }
 
-async function sendEmailNotification(newAppearances) {
+async function sendEmailNotification(newAppearances, plMemberEmails = []) {
   const RESEND_API_KEY = process.env.RESEND_API_KEY;
   const NOTIFY_EMAIL = process.env.NOTIFY_EMAIL;
 
@@ -80,24 +119,31 @@ async function sendEmailNotification(newAppearances) {
   const resend = new Resend(RESEND_API_KEY);
 
   const appearancesList = newAppearances.map(a =>
-    `• <a href="${a.url}">${a.title}</a><br>  <small>${a.source} - ${a.date}</small>`
+    \`• <a href="\${a.url}">\${a.title}</a><br>  <small>\${a.source} - \${a.date}</small>\`
   ).join('<br><br>');
 
-  const html = `
+  const html = \`
     <h2>Levi Bachmeier Media Tracker Update</h2>
-    <p>Found ${newAppearances.length} new media appearance(s) this week:</p>
-    <div style="margin: 20px 0;">${appearancesList}</div>
+    <p>Found \${newAppearances.length} new media appearance(s) this week:</p>
+    <div style="margin: 30px 0;">\${appearancesList}</div>
     <p style="color: #666; font-size: 12px;">These need to be reviewed and added to the tracker with quotes.</p>
-  `;
+    <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+    <p style="font-size: 12px; color: #999;">
+      View the full tracker: <a href="https://libby-tracker.netlify.app">libby-tracker.netlify.app</a>
+    </p>
+  \`;
+
+  const allRecipients = [NOTIFY_EMAIL, ...plMemberEmails].filter(Boolean);
 
   try {
     await resend.emails.send({
       from: 'Libby Tracker <onboarding@resend.dev>',
-      to: NOTIFY_EMAIL,
-      subject: `[Libby Tracker] ${newAppearances.length} new appearance(s) found`,
+      to: allRecipients,
+      subject: \`[Libby Tracker] \${newAppearances.length} new appearance(s) found\`,
       html
     });
-    console.log('Email notification sent!');
+    console.log(\`Email notification sent to \${allRecipients.length} recipients!\`);
+    console.log(\`Recipients: \${allRecipients.join(', ')}\`);
   } catch (error) {
     console.error('Failed to send email:', error.message);
   }
@@ -126,19 +172,21 @@ async function addPlaceholderAppearances(newAppearances) {
 
   data.lastUpdated = new Date().toISOString().split('T')[0];
   fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-  console.log(`Added ${newAppearances.length} new appearances to data file.`);
+  console.log(\`Added \${newAppearances.length} new appearances to data file.\`);
 }
 
 async function main() {
   console.log('Starting weekly update...');
-  console.log(`Current appearances: ${data.appearances.length}`);
+  console.log(\`Current appearances: \${data.appearances.length}\`);
+
+  const plMemberEmails = await getPLMemberEmails();
 
   const newAppearances = await searchForNewAppearances();
-  console.log(`Found ${newAppearances.length} new potential appearances.`);
+  console.log(\`Found \${newAppearances.length} new potential appearances.\`);
 
   if (newAppearances.length > 0) {
     await addPlaceholderAppearances(newAppearances);
-    await sendEmailNotification(newAppearances);
+    await sendEmailNotification(newAppearances, plMemberEmails);
   } else {
     console.log('No new appearances found this week.');
   }
