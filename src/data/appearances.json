@@ -1,0 +1,127 @@
+{
+  "lastUpdated": "2026-01-28",
+  "officeStartDate": "2025-11-24",
+  "appointmentDate": "2025-10-21",
+  "appearances": [
+    {
+      "id": 1,
+      "date": "2025-10-21",
+      "outlet": "Press Conference",
+      "type": "Press Event",
+      "topic": "Appointment Announcement",
+      "quote": "Nobody should be opposed to choice. It's 'is the policy promoting equal and fair choice for all?' or is it benefiting a small subset of the population?",
+      "icon": "🎤",
+      "url": ""
+    },
+    {
+      "id": 2,
+      "date": "2025-10-21",
+      "outlet": "Inforum (Fargo)",
+      "type": "Print",
+      "topic": "Appointment Coverage",
+      "quote": "The goal of this statewide tour is to listen, which I believe will allow me to be a better leader.",
+      "icon": "📰",
+      "url": "https://www.inforum.com/news/north-dakota/governor-names-west-fargo-schools-business-manager-to-state-superintendent-role"
+    },
+    {
+      "id": 3,
+      "date": "2025-10-21",
+      "outlet": "Bismarck Tribune",
+      "type": "Print",
+      "topic": "Appointment Coverage",
+      "quote": "I've spent my career focused on education — from teaching on Pine Ridge to advising the Governor to managing West Fargo schools.",
+      "icon": "📰",
+      "url": ""
+    },
+    {
+      "id": 4,
+      "date": "2025-10-22",
+      "outlet": "KFYR-TV",
+      "type": "TV Interview",
+      "topic": "Education Policies",
+      "quote": "That's where I would draw the line — is the policy promoting equal and fair choice for all?",
+      "icon": "📺",
+      "url": "https://www.kfyrtv.com/2025/10/22/new-state-school-superintendent-speaks-education-policies/"
+    },
+    {
+      "id": 5,
+      "date": "2025-10-27",
+      "outlet": "Open Range (BEK TV)",
+      "type": "TV Interview",
+      "topic": "Background & Values",
+      "quote": "I support a cooperative relationship between public, homeschool, and charter school communities.",
+      "icon": "📺",
+      "url": "https://www.bektv.plus/videos/openrange/2025-10-27"
+    },
+    {
+      "id": 6,
+      "date": "2025-10-28",
+      "outlet": "Inforum - Plain Talk",
+      "type": "Column/Profile",
+      "topic": "Philosophy & Approach",
+      "quote": "The politics will take care of itself if we focus on what's best for kids.",
+      "icon": "📰",
+      "url": "https://www.inforum.com/opinion/columns/plain-talk-the-politics-will-take-care-of-itself"
+    },
+    {
+      "id": 7,
+      "date": "2025-11-24",
+      "outlet": "ND DPI",
+      "type": "Press Release",
+      "topic": "First Day in Office",
+      "quote": "I'm going to visit all 167 school districts in North Dakota, starting with Marmarth.",
+      "icon": "📰",
+      "url": ""
+    },
+    {
+      "id": 8,
+      "date": "2025-11-24",
+      "outlet": "Bismarck Tribune",
+      "type": "Print",
+      "topic": "First Day Coverage",
+      "quote": "Starting with Marmarth — the smallest district — sends a message that every school matters.",
+      "icon": "📰",
+      "url": ""
+    },
+    {
+      "id": 9,
+      "date": "2025-12-02",
+      "outlet": "KFYR-TV",
+      "type": "TV Interview",
+      "topic": "AI in Classrooms",
+      "quote": "I used to be a high school Social Studies teacher... I hope we can have a conversation about how to use AI to help take things off teachers' plates.",
+      "icon": "📺",
+      "url": "https://www.kfyrtv.com/2025/12/02/new-state-superintendent-talks-ai-classrooms/"
+    },
+    {
+      "id": 10,
+      "date": "2025-12-02",
+      "outlet": "Grand Forks Herald",
+      "type": "Print Interview",
+      "topic": "167-School Listening Tour",
+      "quote": "I'm excited and honored to serve as state superintendent.",
+      "icon": "📰",
+      "url": "https://www.grandforksherald.com/news/north-dakota/levi-bachmeier-north-dakotas-new-k-12-superintendent-prepares-to-hit-road-for-a-167-school-listening-tour"
+    },
+    {
+      "id": 11,
+      "date": "2025-12-08",
+      "outlet": "KFYR-TV",
+      "type": "TV Interview",
+      "topic": "Educational Options",
+      "quote": "I don't think we need to charge what we do as it relates to tuition for dual credit courses.",
+      "icon": "📺",
+      "url": "https://www.kfyrtv.com/2025/12/08/bachmeier-talks-educational-options-new-state-superintendent-plans-school-district-trips/"
+    },
+    {
+      "id": 12,
+      "date": "2025-12-15",
+      "outlet": "The National Desk",
+      "type": "National TV",
+      "topic": "School Safety",
+      "quote": "Students often prepare for emergencies in classrooms but not in worship areas — that's a unique consideration for faith-based schools.",
+      "icon": "🌐",
+      "url": ""
+    }
+  ]
+}
