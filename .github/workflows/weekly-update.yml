@@ -9,6 +9,8 @@ on:
 jobs:
   update-appearances:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # This allows the workflow to push changes
 
     steps:
       - name: Checkout repository
@@ -26,7 +28,7 @@ jobs:
         env:
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          NOTIFY_EMAIL:           
+          NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: node scripts/update-appearances.js
@@ -45,6 +47,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git pull --rebase
           git add src/data/appearances.json
           git commit -m "Auto-update: New media appearances found"
           git push
