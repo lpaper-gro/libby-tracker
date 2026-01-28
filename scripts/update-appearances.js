@@ -44,7 +44,7 @@ async function getPLMemberEmails() {
       })
       .filter(email => email !== null);
 
-    console.log(\`Found \${emails.length} PL member emails from Notion\`);
+    console.log(`Found ${emails.length} PL member emails from Notion`);
     return emails;
   } catch (error) {
     console.error('Error fetching PL members from Notion:', error.message);
@@ -99,7 +99,7 @@ async function searchForNewAppearances() {
         }
       }
     } catch (error) {
-      console.error(\`Search error for "\${query}":\`, error.message);
+      console.error(`Search error for "${query}":`, error.message);
     }
   }
 
@@ -119,19 +119,19 @@ async function sendEmailNotification(newAppearances, plMemberEmails = []) {
   const resend = new Resend(RESEND_API_KEY);
 
   const appearancesList = newAppearances.map(a =>
-    \`• <a href="\${a.url}">\${a.title}</a><br>  <small>\${a.source} - \${a.date}</small>\`
+    `• <a href="${a.url}">${a.title}</a><br>  <small>${a.source} - ${a.date}</small>`
   ).join('<br><br>');
 
-  const html = \`
+  const html = `
     <h2>Levi Bachmeier Media Tracker Update</h2>
-    <p>Found \${newAppearances.length} new media appearance(s) this week:</p>
-    <div style="margin: 30px 0;">\${appearancesList}</div>
+    <p>Found ${newAppearances.length} new media appearance(s) this week:</p>
+    <div style="margin: 30px 0;">${appearancesList}</div>
     <p style="color: #666; font-size: 12px;">These need to be reviewed and added to the tracker with quotes.</p>
     <hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
     <p style="font-size: 12px; color: #999;">
       View the full tracker: <a href="https://libby-tracker.netlify.app">libby-tracker.netlify.app</a>
     </p>
-  \`;
+  `;
 
   const allRecipients = [NOTIFY_EMAIL, ...plMemberEmails].filter(Boolean);
 
@@ -139,11 +139,11 @@ async function sendEmailNotification(newAppearances, plMemberEmails = []) {
     await resend.emails.send({
       from: 'Libby Tracker <onboarding@resend.dev>',
       to: allRecipients,
-      subject: \`[Libby Tracker] \${newAppearances.length} new appearance(s) found\`,
+      subject: `[Libby Tracker] ${newAppearances.length} new appearance(s) found`,
       html
     });
-    console.log(\`Email notification sent to \${allRecipients.length} recipients!\`);
-    console.log(\`Recipients: \${allRecipients.join(', ')}\`);
+    console.log(`Email notification sent to ${allRecipients.length} recipients!`);
+    console.log(`Recipients: ${allRecipients.join(', ')}`);
   } catch (error) {
     console.error('Failed to send email:', error.message);
   }
@@ -172,17 +172,17 @@ async function addPlaceholderAppearances(newAppearances) {
 
   data.lastUpdated = new Date().toISOString().split('T')[0];
   fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-  console.log(\`Added \${newAppearances.length} new appearances to data file.\`);
+  console.log(`Added ${newAppearances.length} new appearances to data file.`);
 }
 
 async function main() {
   console.log('Starting weekly update...');
-  console.log(\`Current appearances: \${data.appearances.length}\`);
+  console.log(`Current appearances: ${data.appearances.length}`);
 
   const plMemberEmails = await getPLMemberEmails();
 
   const newAppearances = await searchForNewAppearances();
-  console.log(\`Found \${newAppearances.length} new potential appearances.\`);
+  console.log(`Found ${newAppearances.length} new potential appearances.`);
 
   if (newAppearances.length > 0) {
     await addPlaceholderAppearances(newAppearances);
