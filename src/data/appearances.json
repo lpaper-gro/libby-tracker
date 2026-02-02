@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28",
+  "lastUpdated": "2026-02-02",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -143,6 +143,50 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.inforum.com/news/north-dakota/fargo-businesswoman-former-state-commerce-head-appointed-to-north-dakota-higher-ed-board",
+      "needsReview": true
+    },
+    {
+      "id": 15,
+      "date": "2 days ago",
+      "outlet": "MSN",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "http://www.msn.com/en-us/news/other/levi-bachmeier-named-north-dakota-superintendent-of-public-instruction/ar-AA1OV6PN?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+      "needsReview": true
+    },
+    {
+      "id": 16,
+      "date": "2 days ago",
+      "outlet": "knoxradio",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📻",
+      "url": "https://knoxradio.com/2026/01/30/new-member-appointed-to-the-north-dakota-education-board/",
+      "needsReview": true
+    },
+    {
+      "id": 17,
+      "date": "3 days ago",
+      "outlet": "KX News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kxnet.com/north-dakota-news/north-dakota-education-board-appointment/amp/",
+      "needsReview": true
+    },
+    {
+      "id": 18,
+      "date": "3 days ago",
+      "outlet": "KX News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kxnet.com/north-dakota-news/north-dakota-education-board-appointment/",
       "needsReview": true
     }
   ]
