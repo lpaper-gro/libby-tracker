@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-16",
+  "lastUpdated": "2026-02-23",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -209,6 +209,28 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.newsdakota.com/2026/02/12/state-school-superintendent-bachmeiers-reaction-to-fraud-case/",
+      "needsReview": true
+    },
+    {
+      "id": 21,
+      "date": "3 days ago",
+      "outlet": "The Flag - AM 1100 and FM 92.3 WZFG",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.am1100theflag.com/news/n-d-education-leader-shares-concerns-about-how-districts-are-funded-by-the-legislature/",
+      "needsReview": true
+    },
+    {
+      "id": 22,
+      "date": "5 days ago",
+      "outlet": "NewsDakota.com",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.newsdakota.com/2026/02/17/hebron-finley-sharon-schools-honored-for-academic-growth/",
       "needsReview": true
     }
   ]
