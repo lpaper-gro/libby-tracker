@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-23",
+  "lastUpdated": "2026-03-09",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -231,6 +231,28 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.newsdakota.com/2026/02/17/hebron-finley-sharon-schools-honored-for-academic-growth/",
+      "needsReview": true
+    },
+    {
+      "id": 23,
+      "date": "3 days ago",
+      "outlet": "New England Extra",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.gspublishing.net/gspublishing/stories/state-superintendent-visits-beach,45440",
+      "needsReview": true
+    },
+    {
+      "id": 24,
+      "date": "4 days ago",
+      "outlet": "The Forum of Fargo-Moorhead",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.inforum.com/opinion/columns/plain-talk-going-backwards-in-average-teacher-pay-thats-a-problem",
       "needsReview": true
     }
   ]
