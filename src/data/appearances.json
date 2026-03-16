@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09",
+  "lastUpdated": "2026-03-16",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -253,6 +253,127 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.inforum.com/opinion/columns/plain-talk-going-backwards-in-average-teacher-pay-thats-a-problem",
+      "needsReview": true
+    },
+    {
+      "id": 25,
+      "date": "6 days ago",
+      "outlet": "The Forum of Fargo-Moorhead",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.inforum.com/news/north-dakota/levi-bachmeier-to-run-for-state-superintendent",
+      "needsReview": true
+    },
+    {
+      "id": 26,
+      "date": "6 days ago",
+      "outlet": "KFYR-TV",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📺",
+      "url": "https://www.kfyrtv.com/2026/03/09/levi-bachmeier-run-full-term-state-school-superintendent/",
+      "needsReview": true
+    },
+    {
+      "id": 27,
+      "date": "6 days ago",
+      "outlet": "Valley News Live",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.valleynewslive.com/2026/03/09/levi-bachmeier-launches-campaign-north-dakota-superintendent-public-instruction/",
+      "needsReview": true
+    },
+    {
+      "id": 28,
+      "date": "6 days ago",
+      "outlet": "KX News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kxnet.com/north-dakota-news/bachmeier-announces-nddpi-run/",
+      "needsReview": true
+    },
+    {
+      "id": 29,
+      "date": "6 days ago",
+      "outlet": "North Dakota Monitor",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://northdakotamonitor.com/2026/03/09/bachmeier-formally-launches-campaign-to-lead-north-dakota-public-schools-as-democrat-enters-race/",
+      "needsReview": true
+    },
+    {
+      "id": 30,
+      "date": "6 days ago",
+      "outlet": "National Today",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://nationaltoday.com/us/nd/bismarck/news/2026/03/10/levi-bachmeier-launches-campaign-for-nd-superintendent-of-public-instruction/",
+      "needsReview": true
+    },
+    {
+      "id": 31,
+      "date": "6 days ago",
+      "outlet": "Yahoo",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.yahoo.com/news/videos/levi-bachmeier-run-nd-superintendent-033703877.html",
+      "needsReview": true
+    },
+    {
+      "id": 32,
+      "date": "6 days ago",
+      "outlet": "Williston Herald",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.willistonherald.com/news/bachmeier-seeks-election-as-north-dakota-superintendent/article_660999f8-d360-4369-8150-f7fb2544e562.html",
+      "needsReview": true
+    },
+    {
+      "id": 33,
+      "date": "6 days ago",
+      "outlet": "National Today",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://nationaltoday.com/us/nd/bismarck/news/2026/03/09/bachmeier-announces-campaign-for-nd-superintendent-of-public-instruction/",
+      "needsReview": true
+    },
+    {
+      "id": 34,
+      "date": "5 days ago",
+      "outlet": "KX News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kxnet.com/news/on-the-go/bachmeier-to-run-for-superintendent-mandan-man-arrested-after-setting-fire-andres-forecast/",
+      "needsReview": true
+    },
+    {
+      "id": 35,
+      "date": "6 days ago",
+      "outlet": "minotdailynews.com",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.minotdailynews.com/news/ndnews/2026/03/state-superintendent-announces-campaign-to-retain-post/",
       "needsReview": true
     }
   ]
