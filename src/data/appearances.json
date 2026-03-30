@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23",
+  "lastUpdated": "2026-03-30",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -385,6 +385,28 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.kxnet.com/north-dakota-news/north-dakota-superintendent-reveals-new-charter-school-rules/",
+      "needsReview": true
+    },
+    {
+      "id": 37,
+      "date": "5 days ago",
+      "outlet": "News Dakota",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.newsdakota.com/2026/03/24/new-nd-charter-school-rules-taking-effect-april-1/",
+      "needsReview": true
+    },
+    {
+      "id": 38,
+      "date": "6 days ago",
+      "outlet": "KX News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kxnet.com/north-dakota-news/nd-higher-education-board-openings/",
       "needsReview": true
     }
   ]
