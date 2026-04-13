@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06",
+  "lastUpdated": "2026-04-13",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -418,6 +418,28 @@
       "quote": "[Quote to be added]",
       "icon": "📻",
       "url": "https://knoxradio.com/2026/03/30/strong-exam-results-mean-big-college-savings/",
+      "needsReview": true
+    },
+    {
+      "id": 40,
+      "date": "5 days ago",
+      "outlet": "DVIDS",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.dvidshub.net/image/9603599/grand-forks-afb-celebrates-april-month-military-child",
+      "needsReview": true
+    },
+    {
+      "id": 41,
+      "date": "5 days ago",
+      "outlet": "DVIDS",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.dvidshub.net/image/9603675/grand-forks-afb-celebrates-april-month-military-child",
       "needsReview": true
     }
   ]
