@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13",
+  "lastUpdated": "2026-04-20",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -440,6 +440,39 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.dvidshub.net/image/9603675/grand-forks-afb-celebrates-april-month-military-child",
+      "needsReview": true
+    },
+    {
+      "id": 42,
+      "date": "3 days ago",
+      "outlet": "New England Extra",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.gspublishing.net/gspublishing/stories/bachmeier-tour-of-schools-stops-locally,50490",
+      "needsReview": true
+    },
+    {
+      "id": 43,
+      "date": "2 days ago",
+      "outlet": "MSN",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.msn.com/en-us/news/us/north-dakotans-urged-to-apply-to-education-board-opening/ar-AA1ZfSlo?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+      "needsReview": true
+    },
+    {
+      "id": 44,
+      "date": "3 days ago",
+      "outlet": "www.gspublishing.net",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.gspublishing.net/herald-news/stories/lessons-and-conversations,50456",
       "needsReview": true
     }
   ]
