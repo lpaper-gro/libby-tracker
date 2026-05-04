@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20",
+  "lastUpdated": "2026-05-04",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -473,6 +473,61 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.gspublishing.net/herald-news/stories/lessons-and-conversations,50456",
+      "needsReview": true
+    },
+    {
+      "id": 45,
+      "date": "4 days ago",
+      "outlet": "InForum",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.inforum.com/opinion/columns/port-school-schedules-should-be-driven-by-academics-not-athletics",
+      "needsReview": true
+    },
+    {
+      "id": 46,
+      "date": "2 days ago",
+      "outlet": "Grand Forks Herald",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.grandforksherald.com/opinion/columns/port-what-if-we-took-sports-out-of-schools",
+      "needsReview": true
+    },
+    {
+      "id": 47,
+      "date": "1 day ago",
+      "outlet": "MSN",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.msn.com/en-us/news/us/new-rules-proposed-for-four-day-school-week-in-north-dakota/ar-AA21Xtfn?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+      "needsReview": true
+    },
+    {
+      "id": 48,
+      "date": "4 days ago",
+      "outlet": "Dakota News Network",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.dakotanewsnetwork.com/2026/04/29/new-rules-proposed-for-schools-moving-to-four-day-weeks/",
+      "needsReview": true
+    },
+    {
+      "id": 49,
+      "date": "5 days ago",
+      "outlet": "KX News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kxnet.com/news/local-news/rules-proposed-four-day-school-week/",
       "needsReview": true
     }
   ]
