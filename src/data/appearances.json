@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18",
+  "lastUpdated": "2026-05-25",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -561,6 +561,39 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://gspublishing.net/gspublishing/stories/new-rules-on-four-day-school-week-focus-on-performance,54043",
+      "needsReview": true
+    },
+    {
+      "id": 53,
+      "date": "6 days ago",
+      "outlet": "KX News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kxnet.com/north-dakota-news/superintendent-bachmeier-fill-student-cabinet/",
+      "needsReview": true
+    },
+    {
+      "id": 54,
+      "date": "3 days ago",
+      "outlet": "Jamestown Sun",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.jamestownsun.com/community/applicants-sought-for-student-cabinet-in-north-dakota",
+      "needsReview": true
+    },
+    {
+      "id": 55,
+      "date": "6 days ago",
+      "outlet": "MSN",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.msn.com/en-us/news/us/superintendent-bachmeier-seeking-to-fill-student-cabinet/ar-AA23vHOU",
       "needsReview": true
     }
   ]
