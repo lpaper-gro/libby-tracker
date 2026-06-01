@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25",
+  "lastUpdated": "2026-06-01",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -594,6 +594,17 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.msn.com/en-us/news/us/superintendent-bachmeier-seeking-to-fill-student-cabinet/ar-AA23vHOU",
+      "needsReview": true
+    },
+    {
+      "id": 56,
+      "date": "2 days ago",
+      "outlet": "Dakota News Network",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.dakotanewsnetwork.com/2026/05/29/state-leaders-announce-education-technology-policy-survey/",
       "needsReview": true
     }
   ]
