@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-06-15",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -605,6 +605,83 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.dakotanewsnetwork.com/2026/05/29/state-leaders-announce-education-technology-policy-survey/",
+      "needsReview": true
+    },
+    {
+      "id": 57,
+      "date": "5 days ago",
+      "outlet": "North Dakota Monitor",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://northdakotamonitor.com/2026/06/09/bachmeier-foss-poised-to-advance-to-general-election-for-north-dakota-state-school-superintendent/",
+      "needsReview": true
+    },
+    {
+      "id": 58,
+      "date": "5 days ago",
+      "outlet": "KFYR-TV",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📺",
+      "url": "https://www.kfyrtv.com/2026/06/10/projected-winners-nd-superintendent-public-instruction/",
+      "needsReview": true
+    },
+    {
+      "id": 59,
+      "date": "5 days ago",
+      "outlet": "News From The States",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.newsfromthestates.com/article/bachmeier-foss-poised-advance-general-election-north-dakota-state-school-superintendent",
+      "needsReview": true
+    },
+    {
+      "id": 60,
+      "date": "5 days ago",
+      "outlet": "InForum",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.inforum.com/news/north-dakota/bachmeier-foss-move-on-to-november-election-in-dpi-race",
+      "needsReview": true
+    },
+    {
+      "id": 61,
+      "date": "6 days ago",
+      "outlet": "EIN News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.einnews.com/amp/pr_news/918247260/peterson-appointed-as-deputy-superintendent-for-the-north-dakota-department-of-public-instruction",
+      "needsReview": true
+    },
+    {
+      "id": 62,
+      "date": "6 days ago",
+      "outlet": "KFYR-TV",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📺",
+      "url": "https://www.kfyrtv.com/2026/06/08/state-superintendent-appoints-amanda-peterson-deputy-superintendent/",
+      "needsReview": true
+    },
+    {
+      "id": 63,
+      "date": "3 days ago",
+      "outlet": "MSN",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.msn.com/en-us/news/us/deputy-superintendent-appointed-for-nd-department-of-public-instruction/ar-AA258fVR?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
       "needsReview": true
     }
   ]
