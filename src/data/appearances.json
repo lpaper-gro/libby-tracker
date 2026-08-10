@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15",
+  "lastUpdated": "2026-08-10",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -682,6 +682,17 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.msn.com/en-us/news/us/deputy-superintendent-appointed-for-nd-department-of-public-instruction/ar-AA258fVR?apiversion=v2&domshim=1&noservercache=1&noservertelemetry=1&batchservertelemetry=1&renderwebcomponents=1&wcseo=1",
+      "needsReview": true
+    },
+    {
+      "id": 64,
+      "date": "3 days ago",
+      "outlet": "The Mighty 790 KFGO",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://kfgo.com/2026/08/06/nd-teacher-pay/",
       "needsReview": true
     }
   ]
