@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10",
+  "lastUpdated": "2026-08-17",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -693,6 +693,17 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://kfgo.com/2026/08/06/nd-teacher-pay/",
+      "needsReview": true
+    },
+    {
+      "id": 65,
+      "date": "23 hours ago",
+      "outlet": "InForum",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.inforum.com/news/north-dakota/north-dakota-ai-and-data-center-committee-asked-to-work-toward-child-ai-use-regulations",
       "needsReview": true
     }
   ]
