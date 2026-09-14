@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07",
+  "lastUpdated": "2026-09-14",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -770,6 +770,28 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.newsdakota.com/2026/08/31/nddpi-staff-to-volunteer-as-substitute-teachers/",
+      "needsReview": true
+    },
+    {
+      "id": 72,
+      "date": "4 days ago",
+      "outlet": "The Dickinson Press",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.thedickinsonpress.com/news/local/state-superintendent-levi-bachmeier-visits-roosevelt-elementary-recognizes-teacher-of-the-year-finalist",
+      "needsReview": true
+    },
+    {
+      "id": 73,
+      "date": "5 days ago",
+      "outlet": "EIN Presswire",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.einpresswire.com/article/940669476/bachmeier-launches-new-student-legislative-summit-announces-student-cabinet-members",
       "needsReview": true
     }
   ]
