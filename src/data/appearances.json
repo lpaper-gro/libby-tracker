@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-09-21",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -792,6 +792,39 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.einpresswire.com/article/940669476/bachmeier-launches-new-student-legislative-summit-announces-student-cabinet-members",
+      "needsReview": true
+    },
+    {
+      "id": 74,
+      "date": "3 days ago",
+      "outlet": "Minot Daily News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.minotdailynews.com/news/local-news/2026/09/dakota-cup-scholarship-competition-announced/",
+      "needsReview": true
+    },
+    {
+      "id": 75,
+      "date": "2 days ago",
+      "outlet": "KX News",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kxnet.com/north-dakota-news/nddpi-announces-contest-highlighting-academic-excellence/",
+      "needsReview": true
+    },
+    {
+      "id": 76,
+      "date": "1 day ago",
+      "outlet": "Grand Forks Herald",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.grandforksherald.com/opinion/editorials/elections-2026-wrigley-howe-and-bachmeier-deserve-to-keep-seats",
       "needsReview": true
     }
   ]
