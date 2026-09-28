@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21",
+  "lastUpdated": "2026-09-28",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -825,6 +825,39 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.grandforksherald.com/opinion/editorials/elections-2026-wrigley-howe-and-bachmeier-deserve-to-keep-seats",
+      "needsReview": true
+    },
+    {
+      "id": 77,
+      "date": "6 days ago",
+      "outlet": "KFYR-TV",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📺",
+      "url": "https://www.kfyrtv.com/2026/09/21/dakota-cup-competition-launches-across-north-dakota-high-schools/",
+      "needsReview": true
+    },
+    {
+      "id": 78,
+      "date": "3 days ago",
+      "outlet": "kvrr.com",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.kvrr.com/news/local/agriculture-educator-at-napoleon-public-school-named-north-dakota-teacher-of-the-year/article_684f9882-bcc0-4327-a749-12317d647806.html",
+      "needsReview": true
+    },
+    {
+      "id": 79,
+      "date": "2 hours ago",
+      "outlet": "Buffalo’s Fire",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.buffalosfire.com/the-daily-spark/statewide-competition-seeks-to-even-playing-field-in-north-dakota-schools",
       "needsReview": true
     }
   ]
