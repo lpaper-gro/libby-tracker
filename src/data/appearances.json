@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-11-09",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -979,6 +979,61 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.inforum.com/opinion/columns/port-the-reaction-to-the-teacher-bonuses-plan-has-been-stupidly-partisan",
+      "needsReview": true
+    },
+    {
+      "id": 91,
+      "date": "5 days ago",
+      "outlet": "Valley News Live",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.valleynewslive.com/2026/11/04/levi-bachmeier-wins-statewide-race-north-dakota-superintendent-public-instruction/",
+      "needsReview": true
+    },
+    {
+      "id": 92,
+      "date": "5 days ago",
+      "outlet": "KFYR-TV",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📺",
+      "url": "https://www.kfyrtv.com/2026/11/04/levi-bachmeier-leading-north-dakota-superintendent-public-instruction-race/",
+      "needsReview": true
+    },
+    {
+      "id": 93,
+      "date": "2 days ago",
+      "outlet": "Williston Herald",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.willistonherald.com/news/north-dakota/a-growing-number-of-north-dakota-students-waiting-for-a-teacher",
+      "needsReview": true
+    },
+    {
+      "id": 94,
+      "date": "5 days ago",
+      "outlet": "The Mighty 790 KFGO",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://kfgo.com/2026/11/03/kfgo-live-election-coverage/",
+      "needsReview": true
+    },
+    {
+      "id": 95,
+      "date": "2 days ago",
+      "outlet": "InForum",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.inforum.com/news/north-dakota/a-growing-number-of-north-dakota-students-waiting-for-a-teacher",
       "needsReview": true
     }
   ]
