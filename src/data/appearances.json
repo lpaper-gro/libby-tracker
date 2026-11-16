@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09",
+  "lastUpdated": "2026-11-16",
   "officeStartDate": "2025-11-24",
   "appointmentDate": "2025-10-21",
   "appearances": [
@@ -1034,6 +1034,39 @@
       "quote": "[Quote to be added]",
       "icon": "📰",
       "url": "https://www.inforum.com/news/north-dakota/a-growing-number-of-north-dakota-students-waiting-for-a-teacher",
+      "needsReview": true
+    },
+    {
+      "id": 96,
+      "date": "6 days ago",
+      "outlet": "KFGO",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://kfgo.com/2026/11/10/nd-state-superintendent-believes-there-should-be-conversations-on-taxpayer-funded-school-meals-despite-measure-2-failing/",
+      "needsReview": true
+    },
+    {
+      "id": 97,
+      "date": "3 days ago",
+      "outlet": "Williston Herald",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://www.willistonherald.com/news/the-guy-from-the-commercial-visits-tioga",
+      "needsReview": true
+    },
+    {
+      "id": 98,
+      "date": "5 hours ago",
+      "outlet": "The Bismarck Tribune",
+      "type": "Print",
+      "topic": "TBD - Needs Review",
+      "quote": "[Quote to be added]",
+      "icon": "📰",
+      "url": "https://bismarcktribune.com/news/state-regional/education/article_80bcccca-d2ba-49a4-a6f6-0bbff7e459e5.html",
       "needsReview": true
     }
   ]
